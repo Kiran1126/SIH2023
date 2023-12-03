@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .sectionContainer{
+  display: block;
+}
+.indianWelcome img{
+  height: 350px;
+  width: 350px;
+  margin-top: 50px;
+}
+.imgContainer a{
+  text-decoration: none;
+  color: #696565;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.imgContainer a span{
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+body p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5%;
+  margin-top: 50px;
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#inputContainer{
+  margin: 7% 0;
+}
+section label{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgba(9, 27, 61, 0.603);
+
+}
+section #inputContainer input{
+  padding: 10px 10px;
+  margin: 5px 0;
+  border: 1px solid rgba(9, 27, 61, 0.603);
+  border-radius: 5px;
+  font-size: 1.05rem;
+}
+.otherOptions{
+  display: flex;
+}
+.otherOptions a{
+  text-decoration: none;
+  margin: 40px 10px;
+}
+.otherOptions a img{
+  height: 50px;
+  width: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 4% 10%;
+}
+#inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  color: white;
+  background-color: rgb(58, 170, 63);
+  cursor: pointer;
+  border: rgb(58, 170, 63) 1px solid;
+  border-radius: 5px;
+  padding: 7px 25px;
+  font-size: 1.15rem;
+  transition: all 0.5s ease;
+}
+button:hover{
+  background-color: rgb(58, 170, 63, 0.8);
+  border: rgb(58, 170, 63, 0.8) 1px solid;
+}
+#connectDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#connectDiv p{
+  font-size: 1rem;
+}
+#connectDiv a{
+  text-decoration: none;
+  color: rgb(44, 136, 49);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 5px;
+  transition: 0.5s ease all;
+}
+#connectDiv a:hover{
+  text-decoration: underline;
+}
